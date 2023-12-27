@@ -2,7 +2,7 @@
 
 A small project to demonstarte usage of LangChain with Google Cloud's VertexAI and Gemini LLM.
 
-This is a streamlit application, which takes a code/function as an input and the application provides descrption of the given code, alternate forms of rewriting the code and finally some unit test cases.
+This streamlit application accepts a code or a function as an input and generates the following outputs: a detailed description of what the code does, an alternative way to write the code using best practices, and some unit tests to check the code’s functionality.
 
 ## Prerequisites
 - Google Cloud Account with Vertex AI API enabled 
