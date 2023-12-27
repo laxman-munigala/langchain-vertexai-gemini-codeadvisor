@@ -30,7 +30,9 @@ It is wonderful to see how frameworks like LangChain make it easier to work with
 
 **Create prompt templates**
 > prompt_explain = PromptTemplate.from_template("Explain what the below code does. {entered_code}")
+
 > prompt_alternate = PromptTemplate.from_template("Can you rewrite the below function using python best practices? {entered_code}")
+
 > prompt_unittests = PromptTemplate.from_template("Create unit test code/cases for the below function. {entered_code}")
 
 **Execute the query against the Gemini-pro LLM**
@@ -52,13 +54,13 @@ It is wonderful to see how frameworks like LangChain make it easier to work with
 ## Screen shots of an example usage I tested with
 
 ### Input
-![Alt text](image-4.png)
+![Alt text](readme-images/image-4.png)
 
 ### Output Explain
-![Alt text](image-1.png)
+![Alt text](readme-images/image-1.png)
 
 ### Output Rewrite suggestion
-![Alt text](image-2.png)
+![Alt text](readme-images/image-2.png)
 
 ### Output Unit Tests 
-![Alt text](image-3.png)
+![Alt text](readme-images/image-3.png)
