@@ -26,6 +26,7 @@ It is wonderful to see how frameworks like LangChain make it easier to work with
 
 **Create an instance of LLM, in this case GCP's VertexAI's gemini-pro**
 > from langchain.llms import VertexAI
+
 > llm = VertexAI(model_name="gemini-pro", max_output_tokens=1024)
 
 **Create prompt templates**
