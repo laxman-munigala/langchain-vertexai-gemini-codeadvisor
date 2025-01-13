@@ -1,0 +1,4 @@
+dependencies:
+  - langchain
+  - google-cloud-aiplatform
+  - streamlit

@@ -21,6 +21,14 @@ This streamlit application accepts a code or a function as an input and generate
 4. Start the streamlit app, should open a brower window; if not open manually (the output of below command provides the url)
     > streamlit run main.py
 
+## Installation using UV package manager
+1. Clone the repository.
+2. Install UV package manager from https://uv.pm
+3. Install dependencies using UV package manager
+    > uv install
+4. Start the streamlit app, should open a brower window; if not open manually (the output of below command provides the url)
+    > streamlit run main.py
+
 ## How it works
 It is wonderful to see how frameworks like LangChain make it easier to work with LLMs, they provide a simplified api which allows to interact with LLMs. Refer to the LangChain docs for more information.
 
